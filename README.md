@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+## 💻 Usando rotas e Sass
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📚 Funcionalidades
+ 💻 Funcionalidade 1: Consumo de Api com o axios , axios torna o consumo de uma Api mais rápida e prática
 
-## Available Scripts
+ 💻 Funcionalidade 2: Utilizando o pré-processador Sass, fazia uso sempre do Styled-Components a partir deste projeto irei implementar o Sass para fixar o que venho aprendendo
 
-In the project directory, you can run:
+🔧 
+Tecnologias usadas:
 
-### `yarn start`
+  • node-sass
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   • Axios
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 🚀 Rodando o projeto
+Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `git clone (projeto)`
+### `npm init` or yarn
 
-### `yarn build`
+### `compile o sass, no index.html irá ver chamando a pasta style.css utilizei (sass --wacth (local do sass:css/style.css))`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# O que será implementado na próxima sprint?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Projeto finalizado , implementações ainda não penso talvez a finalização de um carrinho completo, possuo projeto de um carrinho em desenvolvimento como desafio para um possível teste para vagas por isso optei por não inserir neste já que fiz afim de aprimorar o uso do sass.
 
-### `yarn eject`
+🎯 Status do projeto -Concluído
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

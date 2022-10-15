@@ -1,0 +1,36 @@
+
+$colorHead:rgb(255, 249, 249);
+$backHeadHover:#0c3b2e;
+$backHead:#6d977e;
+
+.header{
+    margin-bottom: 2rem;
+
+   ul{
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    ul li{
+       margin-right: 1rem;
+        cursor: pointer;
+    }
+
+    .link{
+        display: block;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $colorHead;
+        background-color: $backHead;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+    .link:hover{
+        background-color: #ddd;
+    }
+    .active{
+        background-color:$backHeadHover;
+    }
+}

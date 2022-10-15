@@ -1,0 +1,63 @@
+@import './Components/Header/header';
+@import './Components/Products/products';
+@import './Components/Product/product';
+@import './Components/Contact/contact';
+@import './Components/Footer/footer';
+
+
+
+body{
+    box-sizing: border-box;
+    margin: 2rem;
+    background-color: #bb8a52;
+    display: flex;
+    flex-direction: column;
+    max-width:1200px;
+    margin: 0 auto;
+}
+.content{
+    flex: 1;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-size: 1.4rem;
+}
+
+.animeLeft{
+    transform: translateX(-20px);
+    opacity: 0;
+    animation:animeLeft .3s forwards;
+}
+
+@keyframes animeLeft{
+    to{
+        transform: initial;
+        opacity: initial;
+    }
+}
+
+.loading{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid  #ffba00;
+    border-right-color: transparent;
+    animation: loading 1s infinite;
+}
+@keyframes loading{
+    to{
+        transform: rotate(360deg);
+    }
+}
+

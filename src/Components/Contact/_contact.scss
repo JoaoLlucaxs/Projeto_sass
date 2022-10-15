@@ -1,0 +1,49 @@
+
+@mixin styleContact {
+    li::before{
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 2px;
+        background-color: #ffba00;
+        margin-right: 10px;
+
+    }
+}
+$colorli:#0c3b2e;
+
+
+@mixin mobile {
+  @media(max-width:870px){
+    @content
+  }
+}
+
+.Contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    h1{
+        color: #fff;
+    }
+
+    @include mobile(){
+      max-width:1200px;
+      margin: 0 auto;
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+}
+
+.contactDetails{
+    padding: 0px;
+
+    @include styleContact();
+    li{
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 0.8rem;
+        color: $colorli;
+    }
+}

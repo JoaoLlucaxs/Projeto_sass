@@ -1,0 +1,44 @@
+
+$colorPrice:#017e01;
+$backPrice:#91fb5d;
+
+
+@mixin familyFont {
+    font-family: sans-serif;
+    color: #ccc;
+}
+
+@mixin button {
+    background-color: $colorPrice;
+    border: none;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product_id{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    img{
+        margin-bottom: 2rem;
+    }
+}
+
+.price{
+    padding: 0.5rem;
+    color: $colorPrice;
+    background: $backPrice;
+    border-radius: 4px;
+}
+
+.description{
+    @include familyFont();
+    font-size: 1.5rem;
+}
+
+button{
+   @include button();
+}

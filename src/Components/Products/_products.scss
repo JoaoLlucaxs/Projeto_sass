@@ -1,0 +1,25 @@
+
+$backname:#d7dbd9;
+
+@mixin mobile {
+  @media(max-width:870px){
+    @content
+  }
+};
+
+
+
+.products_style{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+
+    @include mobile(){
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+    }
+    .name_products{
+        margin: 0.5rem 0;
+        color: $backname;
+    }
+}
