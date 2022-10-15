@@ -1,7 +1,8 @@
 ## 💻 Usando rotas e Sass
 
 ## 📚 Funcionalidades
- 💻 Funcionalidade 1: Consumo de Api com o axios , axios torna o consumo de uma Api mais rápida e prática
+ 💻 Funcionalidade 1: Consumo de Api com o axios , axios torna o consumo de uma Api mais rápida e prática, utilizando useParams para pegar o id, 
+ Api- desenvolvida no curso da Origamid com base nela fui criando do meu jeito
 
  💻 Funcionalidade 2: Utilizando o pré-processador Sass, fazia uso sempre do Styled-Components a partir deste projeto irei implementar o Sass para fixar o que venho aprendendo
 
